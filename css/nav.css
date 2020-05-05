@@ -1,0 +1,74 @@
+header {
+  overflow: hidden;
+  width: 100%;
+  height: 3.5em;
+  text-align: center;
+  background-color: #fff;
+}
+header nav {
+    position: fixed;
+    line-height: 3.5em;
+    position:fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 5px #888888;
+}
+header nav a{
+    font-family: 'Trade Winds', cursive;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+header nav a:hover{
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+}
+header section{
+    display: none;
+    color: #000;
+    float: right;
+    right: 0;
+    line-height: 3.5em;
+    margin-right: 1vw;
+    z-index: 100;
+    position: absolute;
+}
+header section a{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 5px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+header section a:hover{
+  background: #000;
+  color: #fff;
+  border-radius: 25px;
+}
+@media screen and (max-width: 950px) {
+    header{
+        margin: auto;
+    }
+    header nav,
+    header section{
+      width: 100%;
+      text-align: center;
+      line-height: 50px;
+    }
+    header section {
+        margin-top: 50px;
+    }
+}

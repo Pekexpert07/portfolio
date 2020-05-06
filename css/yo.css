@@ -40,6 +40,7 @@
     margin: 0 3vw;
 }
 #yo section button {
+    display: none;
     height: 65px;
     background-color: #000;
     color: #fff;

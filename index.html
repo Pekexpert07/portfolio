@@ -1,50 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Alberto Gómez Torres</title>
-    <meta name="author" content="Carlos Alberto Gomez Torres">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/yo.css">
-    <link rel="stylesheet" href="css/habilidades.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#yo">Yo</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#programas">Programas</a>
-            <a href="#contactame">Contactame</a>
-        </nav>
-        <section>
-            <a href="#">ES</a>
-            <a href="#">EN</a>
-        </section>
-    </header>
-    <main>
-        <article id="yo">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <meta name="author" content="Carlos Alberto Gomez Torres">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <title>Carlos Alberto Gómez Torres</title>
+        <!-- HOJAS DE ESTILOS -->
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <!-- RESET -->
+        <link rel="stylesheet" href="css/reset.css">
+        <!-- MAIN -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- HEADER -->
+        <link rel="stylesheet" href="css/header.css">
+        <!-- INICIO -->
+        <link rel="stylesheet" href="css/inicio.css">
+        <!-- CODIGO -->
+        <link rel="stylesheet" href="css/codigo.css">
+        <!-- CONTACTO -->
+        <link rel="stylesheet" href="css/contacto.css">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <nav>
+                <input type="radio" name="navegacion" id="inputInicio" checked>
+                <label for="inputInicio"><i class="fas fa-user-tie"></i></label>
+                <input type="radio" name="navegacion" id="inputCodigo">
+                <label for="inputCodigo"><i class="fas fa-laptop-code"></i></label>
+                <input type="radio" name="navegacion" id="inputContacto">
+                <label for="inputContacto"><i class="fas fa-id-card"></i></label>
+            </nav>
+        </header> 
+        <!-- INICIO -->
+        <section id="sectionInicio">
             <picture>
-                <img src="img/perfil.jpg">
+                <img src="img/perfilEdit.jpg">
             </picture>
-            <section>
-                <hgroup>
-                    <h1>Carlos Alberto Gómez Torres</h1>
-                    <h2>Programador Web</h2>
-                </hgroup>
-                <p>Estudiante de desarrollo de aplicaciones multiplataforma, con muchas ganas de empezar a adquirir experiencia profesional como programador con gran habilidad tanto en el frontend como en el backend.
-                </p>
-                <section>
-                    <button>Descargar curriculun</button>
-                    <a href="www.linkedin.com/in/carlos-alberto-gomez-torres"><i class="fab fa-linkedin"></i></a>
-                </section>
-            </section>
-        </article>
-        <hr>
-    </main>
-</body>
+            <article>
+                <h1>Carlos Gómez</h1>
+                <h3>Programador Full Stack</h3>
+                <p>Soy una persona activa y dinamica, con gran habilidad a la hora de desarrollar aplicaciones web con JavaScrip, usandolo tanto para crear el Frontend como para desarrollar el Backend me gusta aprender lo ultimo en desarrolo web y estar al dia de las nuevas tecnologias.</p>
+            </article>
+        </section>
+        <!-- CODIGO -->
+        <section id="sectionCodigo">
+            <h1>Lenguajes Web</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS (Bootstrap)</li>
+                <li>JavaScrip (ES6, Ajax)</li>
+                <li>PHP</li>
+            </ul>
+            <h1>Entornos</h1>
+            <ul>
+                <li>Node JS</li>
+            </ul>
+            <h1>FrameWork</h1>
+            <ul>
+                <li>Angular</li>
+            </ul>
+            <h1>Lenguajes</h1>
+            <ul>
+                <li>Java (Android)</li>
+            </ul>
+            <h1>Bases de datos</h1>
+            <ul>
+                <li>MongoDB</li>
+                <li>MySQL (phpMyAdmin)</li>
+            </ul>
+            <h1>Sistemas Operativos</h1>
+            <ul>
+                <li>Windows</li>
+                <li>Linux</li>
+            </ul>
+        </section>
+        <!-- CONTACTO -->
+        <section id="sectionContacto">
+            <a href="www.linkedin.com/in/carlos-alberto-gomez-torres"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Pekexpert07?tab=repositories"><i class="fab fa-github-square"></i></a>
+            <a href="https://codepen.io/pekexpert07"><i class="fab fa-codepen"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWnZDbXFRRpVGnlmfDQWblqnXhRgHdwThBThQCLBQVlgRcbJQtqPxKcnpWtnMnQsRXGq"><i class="fas fa-envelope"></i></a>
+        </section>
+        <!-- SCRIPTS -->
+        <!-- ELEMENTOS DEL DOM -->
+        <script src="js/dom.js"></script>
+        <!-- MEDIDAS -->
+        <script src="js/medidas.js"></script>
+        <!-- HEADER -->
+        <script src="js/header.js"></script>
+    </body>
 </html>

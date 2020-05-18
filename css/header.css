@@ -1,0 +1,21 @@
+header {
+    background-color: rgba(105, 105, 105, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5em;
+    padding: 1.1vh 0;
+}
+header nav input {
+    display: none;
+}
+header nav input:checked + label {
+    color: rgb(0, 247, 255);
+}
+header nav label {
+    /* padding-bottom: 2vh; */
+}

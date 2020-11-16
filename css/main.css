@@ -354,7 +354,7 @@ section .title::after {
 }
 /* .experiencias ESTILOS */
 .experiencias .title::after {
-	content: "Donde he trabajado";
+	content: "He trabajado";
 }
 .experiencias .carousel .card {
 	background: #111;

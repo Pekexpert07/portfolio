@@ -20,7 +20,7 @@ $(document).ready(() => {
         $('.navbar .menu').toggleClass("active");
         $(".menu-btn i").toggleClass("active");
     });
-    // ENLACE DESCARGA CURRICULUM 
+    // ENLACE CURRICULUM 
     const enlace = "curriculumUno.pdf";
     $('.button-cv').attr("href", enlace);
     // TYPING ANIMATION
